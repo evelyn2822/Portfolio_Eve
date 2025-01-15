@@ -292,3 +292,43 @@ html,body {
 	margin-top: 40px;
 }
 
+.button{
+	padding: 12px 55px 12px 55px;
+  font-weight: bold;
+  border-radius: 30px;
+  font-size: 15px;
+}
+
+.button:hover{
+ color: #fff;
+}
+
+.button--colorful{
+ background-color: #7F56FD;
+ font-family: Roboto-Light;
+ color: #fff;
+}
+
+.button--default{
+  color: #455a64;
+  border: 1px solid #455a64;
+  margin-right: 15px;
+}
+
+.button--default:hover{
+  background-color: #7F56FD;
+  color: #fff;
+  border: 1px solid #7F56FD;
+}
+
+.button--margin{
+ display: inline-block;
+ margin-top: 40px;
+}
+
+.portfolio__button-group .mixitup-control-active{
+  background-color: #7F56FD;
+  color: #fff;
+}
+
+
