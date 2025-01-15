@@ -821,3 +821,53 @@ html,body {
   margin-top: 90px;
 }
 }
+
+.brand-logo{
+	padding-top: 90px;
+	padding-bottom: 80px;
+}
+
+.brand-logo--bg{
+  background: url("../assets/images/brand-logo-background.png") no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.brand-logo--bg:after{
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(120, 88, 221, .9);
+  z-index: -1;
+}
+
+.brand-logo__wrapper{
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.brand-logo__wrapper li{
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 160px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.brand-logo__wrapper li:last-child{
+  padding-right: 0;
+}
+
+@media (max-width: 600px) {
+  .brand-logo__wrapper{
+    padding-left: 40%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
