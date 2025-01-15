@@ -658,3 +658,166 @@ html,body {
  height: 120px;
  border-radius: 50%;
 }
+
+.team .thumbnail{
+  padding: 0;
+  border: none;
+  -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.34);
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.34);
+  border-radius: 10px;
+  position: relative;
+}
+
+.team .thumbnail:hover .team__overlay{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.team__single-section__name{
+  font-size: 18px;
+  color: #273f59;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.team__single-section__title{
+  font-size: 14px;
+  color: #273f59;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.team__overlay__content{
+  z-index: 10;
+}
+
+.team__overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;  
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.team__single-section--backPage{
+  padding: 10px 50px 1px 20px;
+}
+
+.team__single-section--backPage .progress{
+ height: 5px;
+}
+
+.team__single-section--backPage__title{
+ font-size: 14px;
+ color: #373b3f;
+}
+
+.team__single-section--backPage__title{
+  font-size: 14px;
+  color: #373b3f;
+}
+
+.team__single-section--backPage__percent90{
+  float: right;
+  margin-right: 10px;
+}
+
+.team__single-section--backPage__percent80{
+  float: right;
+  margin-right: 30px;
+}
+
+.team__single-section--backPage__percent70{
+  float: right;
+  margin-right: 60px;
+}
+
+.team__single-section--backPage .social-icons ul li{
+  display: inline-block;
+}
+
+.team__single-section--backPage .social-icons ul li a{
+ color: #78909C;
+}
+
+.team [class^="flaticon-"]:before, [class*=" flaticon-"]:before{
+	margin-right: 20px;
+}
+
+.team .progress-bar{
+	position: relative;
+	overflow: visible !important;
+}
+
+.progress{
+	overflow: visible;
+}
+
+.progress-bar--dot-main{
+  background: #fff none repeat scroll 0 0;
+  border: 2px solid #7f56fd;
+  border-radius: 50%;
+  height: 20px;
+  position: absolute;
+  right: -10px;
+  top: -7px;
+  width: 20px;
+}
+
+.progress-bar--dot{
+  background: #7f56fd none repeat scroll 0 0;
+  border-radius: 50%;
+  display: block;
+  height: 10px;
+  position: absolute;
+  right: -5px;
+  top: -2px;
+  width: 10px;
+}
+
+@media (max-width: 1199px) {
+ .team .thumbnail{
+  margin-bottom: 50px;
+}
+
+.team .thumbnail img{
+ width: 1000%;
+}
+}
+
+@media (max-width: 1399px){
+  .team .social-icons ul li{
+    float: left;
+  }
+
+  .team__single-section--backPage{
+    padding: 10px 46px 34px 20px;
+  }
+}
+
+.team [class^="flaticon-"]:before, [class*=" flaticon-"]:before{
+  margin-right: 0;
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .team hr{
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 1199px) {
+ .team__single-section--backPage{
+  padding: 35px 65px 34px 26px;
+}
+
+.team hr{
+  margin-top: 90px;
+}
+}
