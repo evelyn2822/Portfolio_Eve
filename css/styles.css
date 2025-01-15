@@ -379,3 +379,51 @@ html,body {
   font-weight: bold;
 }
 
+.gutters-60.row{
+  margin-right: -30px;
+  margin-left: -30px;
+}
+
+.gutters-60 > [class^="col-"], .gutters-60 > [class^="col-"]{
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.service .thumbnail{
+  padding: 30px 19px;
+  -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
+  border: 0;
+}
+
+@media screen and (max-width: 991px){
+
+  .service .thumbnail{
+   margin-bottom: 50px
+ }
+}
+
+.service__single-section__title{
+  font-size: 20px;
+  color: #273f59;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.service__single-section__paragraph{
+  font-size: 15px;
+  color: #7b7b7b;
+  line-height: 1.8;
+}
+
+.gutters-70.row{
+  margin-right: -35px;
+  margin-left: -35px;
+}
+
+.gutters-70 > [class^="col-"], .gutters-70 > [class^="col-"]{
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
